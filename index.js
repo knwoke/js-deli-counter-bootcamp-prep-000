@@ -1,4 +1,6 @@
 var katzDeli = ['Bill', 'Jane', 'Ann'];
+var line = [];
+
 function takeANumber(katzDeli, name) {
   katzDeli.push(`${name}`);
   return(`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
@@ -18,7 +20,6 @@ function nowServing(katzDeli) {
 
 function currentLine(katzDeliLine){
   let i=0;
-  var line = [];
   while (i < katzDeli.length){
     line.push(' ' + [i+1] + '. ' + katzDeli[i])
   }
