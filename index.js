@@ -1,5 +1,4 @@
-var katzDeli = ['Bill', 'Jane', 'Ann'];
-var line = [];
+var katzDeli = [];
 
 function takeANumber(katzDeli, name) {
   katzDeli.push(`${name}`);
