@@ -19,6 +19,7 @@ function nowServing(katzDeli) {
 function currentLine(katzDeliLine){
   let i=0;
   var katzDeli = ['Bill', 'Jane', 'Ann'];
+  var line = [];
   while (i < katzDeli.length){
     line.push(' ' + [i+1] + '. ' + katzDeli[i])
   }
